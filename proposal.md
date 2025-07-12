@@ -32,17 +32,17 @@ La solución web permitirá la gestión de turnos de un consultorio medico, con 
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Especialidad médica<br>2. CRUD Obra social<br>3. CRUD Profesional<br>4. CRUD Paciente|
-|CRUD dependiente|1. CRUD Práctica {depende de} CRUD Especialidad médica<br>2. CRUD Turno {depende de}  CRUD Profesional/CRUD Paciente/CRUD Práctica.|
+|CRUD simple|1. CRUD Especialidad médica<br>2. CRUD Obra social<br>3. CRUD Tipo Estado turno<br>4. CRUD Administrativo|
+|CRUD dependiente|1. CRUD Práctica {depende de} CRUD Especialidad médica<br>2. CRUD Turno {depende de}  CRUD Profesional/CRUD Paciente/CRUD Práctica.<br>3. CRUD Profesional{depende de} CRUD Especialidad médica<br>4. CRUD Paciente {depende de} CRUD Obra social<br>5. CRUD Estado turno{depende de} CRUD Tipo Estado Turno|
 |Listado<br>+<br>detalle| 1. Listado de turnos filtrado por dni del paciente, muestra fecha_hora_consulta del turno, nombre y fecha_hora del estado actual del turno, nombre_apellido del profesional y nombre y descripción de la/s práctica/s.<br> 2. Listado de turnos filtrados por matricula del profesional y codigo de estado del turno, muestra dni y nombre_apellido del paciente y nombre, fecha_hora y observaciones del estado actual del turno. |
-|CUU/Epic|1. Solicitar Turno<br>2. Admitir paciente en sala|
+|CUU/Epic|1. Solicitar Turno<br>2. Modificar Turno|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
 |CRUD |1. CRUD Especialidad médica<br>2. CRUD Obra social<br>3. CRUD Profesional<br>4. CRUD Paciente<br>5. CRUD Administrativo<br>6. CRUD Práctica<br>7. CRUD Turno <br>7. CRUD Afiliado<br> 8. CRUD Estado turno {depende de} CRUD turno|
-|CUU/Epic|1. Registrar usuario<br>2. Solicitar turno<br>3. Admitir paciente en sala <br>3. Modificar turno |
+|CUU/Epic|1. Admitir paciente en sala<br>2. Envío de solicitud de confirmación de turno por email<br>3. Cancelar turno |
 
 ### Alcance Adicional Voluntario
 
