@@ -41,7 +41,7 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Especialidad médica<br>2. CRUD Obra social<br>3. CRUD Profesional<br>4. CRUD Paciente<br>5. CRUD Administrativo<br>6. CRUD Práctica<br>7. CRUD Turno <br>7. CRUD Afiliado<br> 8. CRUD Estado turno {depende de} CRUD turno|
+|CRUD |1. CRUD Especialidad médica<br>2. CRUD Obra social<br>3. CRUD Profesional<br>4. CRUD Paciente<br>5. CRUD Administrativo<br>6. CRUD Práctica<br>7. CRUD Turno <br>8. CRUD Estado turno {depende de} CRUD turno|
 |CUU/Epic|1. Admitir paciente en sala<br>2. Envío de solicitud de confirmación de turno por email<br>3. Cancelar turno |
 
 ### Alcance Adicional Voluntario
